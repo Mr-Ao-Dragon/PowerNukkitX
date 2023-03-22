@@ -445,7 +445,7 @@
         <dependency>
             <groupId>com.github.spotbugs</groupId>
             <artifactId>spotbugs-annotations</artifactId>
-            <version>4.5.2</version>
+            <version>4.7.3</version>
             <optional>true</optional>
         </dependency>
         <dependency>
@@ -737,8 +737,7 @@
                         </filter>
                     </filters>
                     <transformers>
-                        <transformer
-                                implementation="com.github.edwgiz.mavenShadePlugin.log4j2CacheTransformer.PluginsCacheFileTransformer">
+                        <transformer implementation="com.github.edwgiz.mavenShadePlugin.log4j2CacheTransformer.PluginsCacheFileTransformer">
                         </transformer>
                     </transformers>
                     <shadedArtifactAttached>true</shadedArtifactAttached>
