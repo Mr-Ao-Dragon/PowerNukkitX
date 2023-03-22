@@ -499,7 +499,7 @@
         <dependency>
             <groupId>com.github.oshi</groupId>
             <artifactId>oshi-core</artifactId>
-            <version>5.8.7</version>
+            <version>6.4.0</version>
         </dependency>
         <dependency>
             <groupId>cn.powernukkitx</groupId>
@@ -737,8 +737,7 @@
                         </filter>
                     </filters>
                     <transformers>
-                        <transformer
-                                implementation="com.github.edwgiz.mavenShadePlugin.log4j2CacheTransformer.PluginsCacheFileTransformer">
+                        <transformer implementation="com.github.edwgiz.mavenShadePlugin.log4j2CacheTransformer.PluginsCacheFileTransformer">
                         </transformer>
                     </transformers>
                     <shadedArtifactAttached>true</shadedArtifactAttached>
